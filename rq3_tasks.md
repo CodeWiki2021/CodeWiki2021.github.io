@@ -1,3 +1,5 @@
+# Code Reading and Comprehension Tasks (RQ3)
+
 ## Task 1
 ```
 public class foo {
@@ -20,17 +22,21 @@ public class foo {
      return cipherText;
     }
 }
+
+
 // Q1: "md5" (in line 3) encryption is vulnerable to length extension attack. (True or False)
-// True
+// A1: True
+
 // Q2: To avoid this kind of attack, ____ encryption methods can be used to replace "md5". (multi-choice)
 //     A. SHA-1   B. SHA-2   C. SHA-256   D. Whirlpool   E. BLAKE2
-// B E
+// A2: B E
+
 // Q3: The true descriptions about "secret key", "message", "cipher", "padding" are ____. (multi-choice)
 //     A. message is encrypted into cipher by using secret key
 //     B. secret key is encrypted into message by using cipher
 //     C. padding is used to make encryption more secret
 //     D. padding will increse overhead
-// A C D
+// A3: A C D
 ```
 
 ### Task 2
@@ -58,17 +64,20 @@ public static void adjustHue(ColorMatrix cm, float value)
     cm.postConcat(new ColorMatrix(mat));
 }
 }
+
+
 // Q1: The 180 (in line 4) can be modified to the values that are multiples of 60. (True/False, give the reason if false)
-// False. 180 is used to transform from degree to radian.
+// A1: False. 180 is used to transform from degree to radian.
+
 // Q2: The 180 (in line 4) is relevant to "Math.PI". (True/False, give the reason if false)
-// True.
-// Q2: The true descriptions about lumR, lumG, lumB (line 11-13) are ____. (multi-choice) 
-//     (hint: "lum" is the abbreviation of "luminance")
+// A2: True.
+
+// Q3: The true descriptions about lumR, lumG, lumB (line 11-13) are ____. (multi-choice) 
 //     A. they are the values of RGB
 //     B. they can be modified to any other values
 //     C. they can be modified to other three values whose sum is 1.0
 //     D. they can not be modified
-// D
+// A3: D
 ```
 
 ### Task 3
@@ -92,8 +101,10 @@ protected String wifiIpAddress(Context context) {
     return ipAddressString;
 }
 }
+
+
 // Q1: We need to convert little-endian to big-endian in line 6-9, because computer memories are often ____ and networking protocals are often ____.
-// little-endianness    big-endianness
+// A1: little-endianness    big-endianness
 ```
 
 ### Task 4
@@ -118,12 +129,16 @@ public HttpClient getNewHttpClient() {
     }
 }
 }
+
+
 // Q1: The input of a HTTP Client is ____.
-// url
+// A1: url
+
 // Q2: If the input starts with ____, HTTP client use http schema; if the input starts with _____, the client use https schema.
-// http:    https:
+// A2: http:    https:
+
 // Q3: Compared to http schema, https schema has an additional _____ layer for _____.
-// secure socket layer  encryption
+// A3: secure socket layer  encryption
 ```
 
 ### Task 5
@@ -146,11 +161,15 @@ public static String hsvToRgb(float hue, float saturation, float value) {
     }
 }
 }
+
+
 // Q1: We can change the number (in line 4) from 6 to 7. (True/False, give the reason if false)
-// False, according to the formula.
+// A1: False, according to the formula.
+
 // Q2: We can add another case in "switch" block. (True/False, give the reason if false)
-// False, according to the formula.
+// A2: False, according to the formula.
+
 // Q3: We can change the order of the six cases in "switch" block. (True/False, give the reason if false)
-// False, according to the formula.
+// A3: False, according to the formula.
 ```
 ![hsv to rgb](./hsv2rgb.png)
