@@ -11,16 +11,16 @@ To evaluate the accuracy of CoLiCo, we randomly select 50 code snippets that are
 We use CoLiCo to identify Wikipedia concept linkings and explanations for the 50 code snippets. We choose a word sense disambiguation and entity linking approach called Babelfy as the baseline.
 
 The results and annotations are as follows:<br>
-- [Concept Linking by CoLiCo]()
-- [Explanantion Excerption by CoLiCo]()
-- [Concept Linking by Babelfy]()
+- [Concept Linking by CoLiCo](./rq1_CoLiCo_linking.zip)
+- [Explanantion Excerption by CoLiCo](./rq1_CoLiCo_explanation.zip)
+- [Concept Linking by Babelfy](./rq1_Babelfy_linking.zip)
 
 ### RQ2
 We run CoLiCo for all the 629 code snippets in the dataset and identify 8,520 concept mentions, which are linked to 2,007 distinct Wikipedia concepts. On average, CoLiCo can identify 13.55 concept mentions for each code snippet and one for every 2.5 lines of code (empty lines excluded).
 
 The results of CoLiCo on the all 629 code snippets are as follows:<br>
-[Linking Result]()
+- [Linking Result](./rq2_linking_results.zip)
 
 ### RQ3
 We use 5 reading and comprehension tasks with 13 questions to evaluate the usefulness of CoLiCo, the tasks and questions are as follows:<br>
-[Reading and Comprehension Tasks]()
+- [Reading and Comprehension Tasks](./rq3_tasks.md)
