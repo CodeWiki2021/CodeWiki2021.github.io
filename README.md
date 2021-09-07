@@ -1,3 +1,5 @@
+# Replication Package of CoLiCo
+
 ## Evaluation of CoLiCo (i.e., **Co**ncept **Li**nking for **Co**de)
 In the evaluation we use the code snippets in the [*adaptation*](https://figshare.com/articles/dataset/ICSE_artifact/7722068/2?file=14372909) dataset constructed by Zhang et al. Their purpose was to study the reuse and adaptation of the code snippets on Stack Overflow and the code snippets were identified by linking code snippets on Stack Overflow to their counterparts in GitHub repositories. The dataset includes 629 Java code snippets and each of them is a method with 32.7 lines of code on average. We choose this dataset as these code snippets have been widely reused and adapted and the reuse and adaptation are based on in-depth comprehension of the code.
 
