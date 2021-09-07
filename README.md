@@ -26,14 +26,16 @@ The results and manual annotations of aggregation relations are as follows:<br>
 To evaluate the accuracy of CoLiCo's online linking, we randomly select 50 code snippets that are included in different Stack Overflow posts from the adap tation dataset. These code snippets cover different domains such as encryption, network, image, GUI.
 We use CoLiCo to identify Wikipedia concept linkings and explanations for the 50 code snippets. We choose a word sense disambiguation and entity linking approach called Babelfy as the baseline.
 The results and annotations are as follows:<br>
-- [Concept Linking by CoLiCo](./rq1_CoLiCo_linking.zip)
-- [Explanantion Excerption by CoLiCo](./rq1_CoLiCo_explanation.zip)
-- [Concept Linking by Babelfy](./rq1_Babelfy_linking.zip)
+- [Concept Linking by CoLiCo](./RQ2_CoLiCo_concept_linking_result.zip)
+- [Explanantion Excerption by CoLiCo](./RQ2_CoLiCo_explanation_excerption_result.zip)
+- [Concept Linking by Babelfy](./RQ2_Babelfy_concept_linking_result.zip)
 
 ### RQ3
 We run CoLiCo for all the 629 code snippets in the dataset and identify 8,520 concept mentions, which are linked to 2,007 distinct Wikipedia concepts. On average, CoLiCo can identify 13.55 concept mentions for each code snippet and one for every 2.5 lines of code (empty lines excluded).
-The results of CoLiCo on the all 629 code snippets are as follows:<br>
-- [Linking Result](./rq2_linking_results.zip)
+Then we use two metrics to evaluate the significance of the concept linkings, i.e., ease and importance.  A concept linking is considered significant if it is both difficult (i.e., average ease ≤ 2) and important (i.e., average importance ≥ 3). 
+
+The annotation results of significance as follows:<br>
+- [Significance](./rq3_significance_results.zip)
 
 ### RQ4
 We use 5 reading and comprehension tasks with 13 questions to evaluate the usefulness of CoLiCo, the tasks and questions are as follows:<br>
