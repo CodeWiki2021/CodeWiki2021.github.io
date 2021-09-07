@@ -19,7 +19,7 @@ The remaining 549 full names and their abbreviations are used as golden set.
 
 To We randomly sample 50 aggregation relations for the evaluation. For each sampled aggregation relation, we randomly retrieve 100 distinct code snippets (not used for the mining of aggregation relations) that contain all the parts of the aggregation relation as its code contexts. The aggregation relation is considered to be meaningful if the combination of its parts (e.g., "r", "g" and "b") represents the meaning of its whole (e.g., "RGB") in at least one code snippet.
 The results and manual annotations of aggregation relations are as follows:<br>
-- [Aggregation Relations](./rq1_CoLiCo_linking.zip)
+- [Aggregation Relations](./RQ1_aggregation_result.txt)
 
 
 ### RQ2
@@ -35,7 +35,7 @@ We run CoLiCo for all the 629 code snippets in the dataset and identify 8,520 co
 Then we use two metrics to evaluate the significance of the concept linkings, i.e., ease and importance.  A concept linking is considered significant if it is both difficult (i.e., average ease ≤ 2) and important (i.e., average importance ≥ 3). 
 
 The annotation results of significance as follows:<br>
-- [Significance](./rq3_significance_results.zip)
+- [Significance](./RQ3_significance_result.zip)
 
 ### RQ4
 We use 5 reading and comprehension tasks with 13 questions to evaluate the usefulness of CoLiCo, the tasks and questions are as follows:<br>
