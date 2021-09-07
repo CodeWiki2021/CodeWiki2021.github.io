@@ -1,6 +1,6 @@
 <!-- # Replication Package of CoLiCo -->
 
-In this replication package, we show the evaluation data and munual annotation results for CoLiCo (i.e., **Co**ncept **Li**nking for **Co**de).
+In this replication package, we show the evaluation data and results of CoLiCo (i.e., **Co**ncept **Li**nking for **Co**de).
 To evaluate the quality, accuracy, significance and usefulness of CoLiCo, we conduct a series of experimental studies which answer the following research questions.
 - **RQ1 (Quality of Offline Mining):** What is the quality of relations mined in the offline phase?
 - **RQ2 (Accuracy of Online Linking):** How accurate are the concept linkings and explanations uncovered by CoLiCo? Can it outperform existing word sense disambiguation and entity linking approaches for general text?
@@ -18,14 +18,14 @@ We filter out the full names that are not a part of any Wikipedia concepts becau
 The remaining 549 full names and their abbreviations are used as golden set.
 
 To We randomly sample 50 aggregation relations for the evaluation. For each sampled aggregation relation, we randomly retrieve 100 distinct code snippets (not used for the mining of aggregation relations) that contain all the parts of the aggregation relation as its code contexts. The aggregation relation is considered to be meaningful if the combination of its parts (e.g., "r", "g" and "b") represents the meaning of its whole (e.g., "RGB") in at least one code snippet.
-The results and manual annotations of aggregation relations are as follows:<br>
+The evaluation results of aggregation relations are as follows:<br>
 - [Aggregation Relations](./RQ1_aggregation_result.txt)
 
 
 ### RQ2
 To evaluate the accuracy of CoLiCo's online linking, we randomly select 50 code snippets that are included in different Stack Overflow posts from the adap tation dataset. These code snippets cover different domains such as encryption, network, image, GUI.
 We use CoLiCo to identify Wikipedia concept linkings and explanations for the 50 code snippets. We choose a word sense disambiguation and entity linking approach called Babelfy as the baseline.
-The results and annotations are as follows:<br>
+The evaluation results are as follows:<br>
 - [Concept Linking by CoLiCo](./RQ2_CoLiCo_concept_linking_result.zip)
 - [Explanantion Excerption by CoLiCo](./RQ2_CoLiCo_explanation_excerption_result.zip)
 - [Concept Linking by Babelfy](./RQ2_Babelfy_concept_linking_result.zip)
@@ -34,7 +34,7 @@ The results and annotations are as follows:<br>
 We run CoLiCo for all the 629 code snippets in the dataset and identify 8,520 concept mentions, which are linked to 2,007 distinct Wikipedia concepts. On average, CoLiCo can identify 13.55 concept mentions for each code snippet and one for every 2.5 lines of code (empty lines excluded).
 Then we use two metrics to evaluate the significance of the concept linkings, i.e., ease and importance.  A concept linking is considered significant if it is both difficult (i.e., average ease ≤ 2) and important (i.e., average importance ≥ 3). 
 
-The annotation results of significance as follows:<br>
+The evaluation results of significance as follows:<br>
 - [Significance](./RQ3_CoLiCo_significance_result.zip)
 
 ### RQ4
