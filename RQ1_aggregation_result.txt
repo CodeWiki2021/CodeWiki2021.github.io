@@ -1,0 +1,50 @@
+{'true', 'false'} --> boolean  |  True
+{'height', 'width'} --> size  |  True
+{'client', 'service'} --> inner  |  False
+{'start', 'end'} --> range  |  True
+{'height', 'width', 'y', 'x'} --> rectangle  |  True
+{'left', 'top'} --> rect  |  True
+{'out', 'in'} --> from  |  False
+{'imaginary', 'real'} --> complex  |  True
+{'y', 'x'} --> coordinate  |  True
+{'username', 'password'} --> credentials  |  True
+{'unit', 'time'} --> timed  |  False
+{'left', 'right', 'center'} --> align  |  True
+{'green', 'red', 'blue'} --> rgb  |  True
+{'b', 'r', 'g'} --> rgb  |  True
+{'b', 'a'} --> ab  |  False
+{'predicate', 'iterator'} --> while  |  False
+{'error', 'warning'} --> severity  |  True
+{'amount', 'currency'} --> money  |  True
+{'id', 'name'} --> customer  |  True
+{'id', 'number'} --> phone  |  True
+{'number', 'type'} --> phone  |  False
+{'minus', 'plus'} --> hyperplane  |  True
+{'e', 'pi'} --> math  |  True
+{'pattern', 'regex'} --> filename  |  False
+{'title', 'author'} --> book  |  True
+{'z', 'w', 'y', 'x'} --> quaternion  |  True
+{'age', 'name'} --> person  |  True
+{'q0', 'q1', 'q3', 'q2'} --> rotation  |  True
+{'data', 'type'} --> rep  |  False
+{'content', 'subject'} --> mail  |  True
+{'b', 'c', 'a'} --> abc  |  False
+{'z', 'y', 'x'} --> xyz  |  False
+{'artist', 'title', 'album'} --> song  |  True
+{'center', 'radius'} --> sphere  |  True
+{'domain', 'secure', 'name', 'value', 'path'} --> cookie  |  True
+{'rtiamb', 'fedamb'} --> federate  |  False
+{'title', 'url'} --> article  |  True
+{'one', 'zero'} --> real  |  True 
+{'id', 'title'} --> article  |  True
+{'from', 'to'} --> stanza  |  True
+{'param', 'value'} --> enable  |  False
+{'domain', 'name', 'value', 'version', 'path'} --> cookie  |  True
+{'source', 'mapper'} --> maybe  |  False
+{'builder', 'factory'} --> ns  |  False
+{'left', 'right'} --> conjunction  |  True
+{'n obs', 'correlation matrix'} --> correlation  |  False
+{'offset', 'buffer'} --> flyweight  |  False
+{'name', 'max age', 'path'} --> cookie  |  False
+{'last name', 'first name'} --> customer  |  True
+{'third', 'first', 'second'} --> triple  |  True
