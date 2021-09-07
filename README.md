@@ -35,7 +35,7 @@ We run CoLiCo for all the 629 code snippets in the dataset and identify 8,520 co
 Then we use two metrics to evaluate the significance of the concept linkings, i.e., ease and importance.  A concept linking is considered significant if it is both difficult (i.e., average ease ≤ 2) and important (i.e., average importance ≥ 3). 
 
 The annotation results of significance as follows:<br>
-- [Significance](./RQ3_significance_result.zip)
+- [Significance](./RQ3_CoLiCo_significance_result.zip)
 
 ### RQ4
 We use 5 reading and comprehension tasks with 13 questions to evaluate the usefulness of CoLiCo, the tasks and questions are as follows:<br>
