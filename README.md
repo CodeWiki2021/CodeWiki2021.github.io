@@ -1,6 +1,6 @@
 <!-- # Replication Package of CoLiCo -->
 
-In this replication package, we show the data used for evaluating CoLiCo (i.e., **Co**ncept **Li**nking for **Co**de) and the munually labeled results.
+In this replication package, we show the evaluation data and munual annotation results for CoLiCo (i.e., **Co**ncept **Li**nking for **Co**de).
 To evaluate the quality, accuracy, significance and usefulness of CoLiCo, we conduct a series of experimental studies which answer the following research questions.
 - **RQ1 (Quality of Offline Mining):** What is the quality of relations mined in the offline phase?
 - **RQ2 (Accuracy of Online Linking):** How accurate are the concept linkings and explanations uncovered by CoLiCo? Can it outperform existing word sense disambiguation and entity linking approaches for general text?
