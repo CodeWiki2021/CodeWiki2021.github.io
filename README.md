@@ -32,7 +32,7 @@ The evaluation results are as follows:<br>
 
 ### RQ3
 We run CoLiCo for all the 629 code snippets in the dataset and identify 8,520 concept mentions, which are linked to 2,007 distinct Wikipedia concepts. On average, CoLiCo can identify 13.55 concept mentions for each code snippet and one for every 2.5 lines of code (empty lines excluded).
-Then we use two metrics to evaluate the significance of the concept linkings, i.e., ease and importance.  A concept linking is considered significant if it is both difficult (i.e., average ease ≤ 2) and important (i.e., average importance ≥ 3). 
+Then we use two metrics to evaluate the significance of the concept linkings, i.e., ease and importance.  A concept linking is considered significant if it is both difficult (i.e., at least 3 of the 4 annotators somewhat agree or agree) and important (i.e., at least 3 of the 4 annotators somewhat agree or agree). 
 
 The evaluation results of significance as follows:<br>
 - [Significance](./RQ3_CoLiCo_significance_result.zip)
